@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+.logo{
+    display: inline-block;
+    margin: 3.75rem auto 3.75rem 6.25rem;
+}
+.logo1{
+    color: #000000;
+}
+.logo2{
+    color: #4bcaff;
+    
+}
+.logo a{
+    text-decoration-line: none;
+    font-size: 5rem;
+}
+.header{
+    margin: 0 6.25rem 3.1rem;
+    background-color: #35444f;
+}
+.header-item{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+.item{
+    display: contents;
+}
+.item a {
+    display: inline-block;
+    font-size: 25pt;
+    color:white;
+    text-decoration: none;
+    margin: 2rem 2.3rem;
+}
+.left-menu{
+border: solid black;
+margin: 0 6.25rem;
+width: 21.5rem;
+height: 25rem;
+float: left;
+}
+.left-menu-item{
+    list-style-type: none;
+}
+.left-menu-item li{
+    margin: 1.9rem 0 ;
+}
+.litem a{
+    text-decoration: none;
+    color: black;
+    font-size: 29pt;
+}
+.image{
+    border: solid black;
+   margin-left: 32rem;
+   margin-right: 6rem;
+    float: none;
+}
+.image img{
+    margin-left: 13rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 23remrem;
+}
+.info{
+   margin-left: 35rem;
+   margin-right: 9rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   font-size: 18pt;
+}
+.footer{
+    border: solid #b4b7ba;
+    background-color: #b4b7ba;
+    margin: 0 6.25rem 2.1rem;
+    font-size: 20pt;
+
+}
+.bot-menu-item{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+.fitem{
+    display: contents;
+    
+}
+
+.fitem a{
+    display: inline-block;
+    font-size: 20pt;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+   padding-left: 1rem;
+   padding-right: 2rem;
+    
+}
+
+.item:hover a{
+	background:#222f3a;
+}
+.litem:hover a{
+    background: #dbdbdb;
+}
+.fitem:hover a{
+    text-decoration: underline;
+    color: #3181a6; 
+}
+
