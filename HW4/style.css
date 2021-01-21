@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-page{
+    background-color: #131210;
+    max-height: 62rem;
+}
+.first-page pre{
+
+  font-size: 9rem;
+    color: #24231e;
+    font-family: 'Montserrat-Bold', 'AdobeInvisFont', 'MyriadPro-Regular';
+  font-weight: 900;
+  text-shadow: 1em 12em 1em , 0 0 1em rgb(12, 1, 1) ;
+  
+}
+.foncar{
+    position: relative;
+    bottom: 26rem;
+    left: 26rem;
+    width: 40%;
+}
+.first-page span{
+    display: inline-block;
+    color: white;
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 900;
+    bottom: 21rem;
+    right: -1rem;
+    font-family: 'Montserrat-Bold', 'AdobeInvisFont', 'MyriadPro-Regular';
+}
+.button-log-in div{
+background-color: white;
+color: #135ec5;
+width: 7%;
+border-radius: 40%;
+padding: 1rem 1.2rem;
+position: relative;
+left: 76rem;
+padding-left: 1.2rem;
+bottom: 5.1rem;
+}
+.button-log-in{
+    text-decoration: none;
+    font-weight: 800;
+}
+.logo img{
+margin-top: 3.75rem;
+margin-left: 6.3rem;
+}
+.contacts{
+   position: relative;
+   left: 52rem;
+   bottom: 2.9rem;
+
+}
+.contacts li{
+    display: inline;
+    padding-right: 2rem;
+}
+.contacts a{
+    color: #ffffff;
+    text-decoration: none; 
+    font-weight: 600;
+}
+.first-contact-item a::before{
+    content: url(./contacticon/Mail@1X.png);
+    position: relative;
+    right: 1rem;
+    top: 0.3rem;
+    padding-left: 1rem;
+}
+.last-contact-item a::before{
+    content: url(./contacticon/Phone@1X.png);
+    position: relative;
+    right: 1rem;
+    top: 0.3rem;
+}
+.right-element{
+    background-color: white;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 82rem;
+    bottom: 39rem;
+}
+.right-element:nth-child(2n)
+{
+    background-color: #135ec5;
+}
+.footer a{
+color:#3c3c3c;
+text-decoration: none;
+font-weight: 900;
+font-size: 2rem;
+
+}
+.footer li{
+    display: inline-block;
+   border-bottom: solid;
+   color: #3c3c3c;
+   padding-right: 10rem;
+   position: relative;
+    bottom: 21rem;
+    left: 7rem;
+    margin-right: 5rem;
+}
+.button-search div{
+    position: relative;
+    bottom: 24rem;
+    left: 65rem;
+    background-color: #135ec5;
+    color: white;
+    width: 15%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2.3rem;
+    border-radius: 45rem;
+}
+.second-page span{
+    font-size: 1.3rem;
+    color: #c1c1c1;
+    font-weight: 500;
+    position: relative;
+    top: 2.5rem;
+    left: 50%;
+}
+.header-icon{
+    position: relative;
+    top: 7rem;
+    margin-left: 5rem;
+}
+.header-icon li{
+    display: inline-block;
+    margin-right: 6rem;
+}
+.sec-page-fon{
+    margin-left: 15rem;
+margin-top: 20rem;
+}
+.sec-page-fon img{
+width: 30%;
+}
+.sec-info {
+    position: relative;
+    left: 45rem;
+    bottom: 15rem;
+    color: #c1c1c1;
+}
+.sec-info h1{
+    color: #135ec5;
+    font-size: 3rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.sec-info span{
+    position: relative;
+}
+.view-all-models div{
+    background-color: #135ec5;
+    width: 15%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.7rem;
+    border-radius: 45rem;
+    position: relative;
+    top: 3rem;
+}
+.view-all-models{
+text-decoration: none;
+color: wheat;
+font-weight: 600;    
+}
+.hdiv{
+    background-color: #135ec5;
+    height: 30rem;
+    position: relative;
+    left: -45rem;
+    top: 10rem;
+}
+.hdiv h1{
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+.hdiv a{
+    border: solid white;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 45rem;
+    font-weight: 500;
+    position: relative;
+    left: 40rem;
+    bottom: 10rem;
+}
+.hdiv img{
+    position: relative;
+    top: 11rem;
+    left: 14rem;
+}
+.third-page{
+    background-color: #135ec5;
+    width: 28rem;
+    height: 13rem;
+    font-size: 9rem;
+    font-weight: 900;
+    padding-top: 1.2rem;
+    color: #1764ce;
+    margin-left: 5rem;
+    margin-top: 20rem;
+}
+.fresh{
+    position: relative;
+    background-color: white;
+    left: 19rem;
+    bottom: 19rem;
+    border: solid rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: #135dc3;
+    padding: 0.5rem 1.5rem;
+    border-radius: 45rem;
+}
+.third-page-left-fon{
+    position: relative;
+    right: 3rem;
+    bottom: 3rem;
+}
+.third-page h2{
+    font-size: 2.2rem;
+    left: 3.2rem;
+    color: black;
+    position: relative;
+    bottom: 3rem;
+}
+.third-page h3{
+    color: #135dc2;
+    font-size: 1.2rem;
+    position: relative;
+    left: 10rem;
+    bottom: 2.5rem;
+}
+.third-page h4{
+    color: #c1c1c1;
+    font-size: 1rem;
+    position: relative;
+    left: 7rem;
+    bottom: 1rem;
+}
+.third-page h5{
+    
+    color: #16ad2c;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    left: 5rem;
+    top: 1rem;   
+}
+.more-info-button{
+    border: solid #e2e2e2;
+    background-color: #e2e2e2;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    border-radius: 45rem;
+    color: white;
+    position: relative;
+    top: -7.3rem;
+    left: 13rem;
+    }
+    .third-page-right-fon{
+        background-color: #135ec4;
+       position: relative;
+        left:57rem;
+        bottom: 45rem;
+        width: 23rem;
+        height: 40rem;
+    }
+    .right-fon{
+        position: relative;
+        top: 11rem;
+        width: 30rem;
+        right: 7rem;
+    }
+    .price{
+        position: relative;
+        color: #16ad2c;
+        right: 10rem;
+        bottom: 15rem;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+    .price-infoh{
+        font-size: 2.2rem;
+        color: #135ec5;
+        position: relative;
+        bottom: 12rem;
+        right: 22rem;
+    }
+    .price-info{
+        position: relative;
+        color: #c1c1c1;
+        font-size: 1rem;
+        right:21.8rem;
+        bottom: 10rem;
+    }
+    .button-order-car{
+        border: solid #135ec5;
+        font-size: 1rem;
+        font-weight: 800;
+        color: white;
+        background-color: #135ec5;
+        position: relative;
+        right: 21.7rem;
+        bottom: 13rem;
+        text-decoration: none;
+        padding: 0.7rem 2rem;
+        border-radius: 45rem;
+    }
+    .footer-icon{
+        font-size: 1.2rem;
+        font-weight: 800;
+        position: relative;
+        
+    }
+    .footer-icon li{
+        display: inline-block;
+     
+       
+    }
+    .footer-icon a{
+        color: #c1c1c1;
+        text-decoration: none;
+    }
+    .footer-icon a:hover{
+        color: black;
+        font-weight: 900;
+    }
+  .f1{
+      position: relative;
+      bottom: 40rem;
+      left: 8rem;
+  }
+  .f2{
+    position: relative;
+    bottom: 40rem;
+    left: 23.7rem;
+}
+.f3{
+    position: relative;
+    bottom: 40rem;
+    left: 30em;
+
+}
+.f4{
+    position: relative;
+    bottom: 40rem;
+    left: 45rem;
+
+}
+.fi1{
+    position: relative;
+    bottom: 45rem;
+    left: -3rem;
+}
+.fi2{
+    position: relative;
+    bottom: 55rem;
+    left:8rem;
+}
+.fi3{
+    position: relative;
+    bottom: 65rem;
+    left: 22rem;
+}
+.fi4{
+    position: relative;
+    bottom: 65rem;
+    left: 20rem;
+}
+.fi5{
+    position: relative;
+    bottom: 76.3rem;
+    left: 43rem;
+}
+.fi6{
+    position: relative;
+    bottom: 86rem;
+    left: 56rem;
+}
+.fi7{
+    position: relative;
+    bottom: 86rem;
+    left: 53rem;
+}
+.third-page pre{
+    font-size: 1.3rem;
+    color: #c1c1c1;
+    position: relative;
+    bottom: 75rem;
+    left: 6rem;
+}
+.but-hsearch{
+padding: 0.7rem 2rem;
+font-size: 0.7rem;
+color: #ffffff ;
+border: solid #135ec5;
+background-color: #135ec5;
+border-radius: 45rem;
+text-decoration: none;
+position: relative;
+bottom: 75rem;
+left: 33rem;
+}
+.third-footer{
+    background-color:#135ec5;
+    position: relative;
+    top: 56rem;
+    left: 7rem;
+    width: 30%;
+    width: 85%;
+}
+.third-footer li{
+ display: inline-block; 
+ padding-right: 6rem;  
+ position: relative;
+ margin-left: 6.5rem;
+ left: -3rem;
+ border-bottom: solid #6d90d4;
+ 
+}
+.third-footer a{
+    color: #6d90d4;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.last li{
+    display: inline-block; 
+    padding-right: 1rem;  
+    position: relative;
+    margin-left: 8.6rem;
+    left: -3rem;
+    padding-right: 3.8rem;
+    border-bottom: solid #6d90d4;
+}
+.but-search{
+    border-radius: 45rem;
+    border: solid wheat;
+    background-color: white;
+    color: #135ec5;
+    padding: 0.5rem 2.5rem;
+    position: relative;
+    left: 31.5rem;
+    bottom: 3rem;
+}
